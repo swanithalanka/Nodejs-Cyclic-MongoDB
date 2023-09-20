@@ -48,6 +48,7 @@ app.get('/add-note', async (req,res) => {
       }
     ]);
     res.json({"Data":"Added"})
+
   } catch (error) {
     console.log("err", + error);
   }
